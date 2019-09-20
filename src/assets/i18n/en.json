@@ -1,0 +1,23 @@
+{
+  "Frame": {
+    "en": "English",
+    "zh": "Chinese",
+    "loginOut": "Log Out",
+    "switchLanguage": "Switch Language"
+  },
+  "Home": {
+    "welcome": "Welcome to the management center",
+    "homePage": "Home Page",
+    "dashboard": "Dashboard",
+    "infosCenter": "Information aggregation center",
+    "showInfosInTime": "Display system dynamics in time",
+    "visitorsToday": "The count of visitors today",
+    "personTime": "Person Time",
+    "viewData": "viewing data",
+    "visitorsMonth": "the count of visitors this month",
+    "visitorsToday": "the count of visitors today",
+    "activeUsersToday": "the count of active users today",
+    "activeUsersMonth": "the count of active users this month",
+    "echartsVal": "Echarts value"
+  }
+}

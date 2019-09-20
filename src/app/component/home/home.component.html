@@ -1,0 +1,39 @@
+<div class="main">
+  <div class="header">
+    <div class="row">
+      <span>{{ 'Home.welcome' | translate }}</span>&gt;<span>{{ 'Home.homePage' | translate }}</span>
+    </div>
+    <div class="row">
+      <span>{{ 'Home.dashboard' | translate }}</span>
+      <span>{{ 'Home.infosCenter' | translate }}</span>
+      <span>{{ 'Home.showInfosInTime' | translate }}</span>
+    </div>
+  </div>
+  <div class="display-data">
+    <div class="row">
+      <div class="inline-block">
+        <div><span>{{ 'Home.visitorsToday' | translate }}</span></div>
+        <div><span>1000</span><span class="times">（{{ 'Home.personTime' | translate }}）</span></div>
+        <div><span>{{ 'Home.viewData' | translate }}</span></div>
+      </div>
+      <div class="inline-block">
+        <div><span>{{ 'Home.visitorsMonth' | translate }}</span></div>
+        <div><span>3700</span><span class="times">（{{ 'Home.personTime' | translate }}）</span></div>
+        <div><span>{{ 'Home.viewData' | translate }}</span></div>
+      </div>
+      <div class="inline-block">
+        <div><span>{{ 'Home.activeUsersToday' | translate }}</span></div>
+        <div><span>100</span><span class="times">（{{ 'Home.personTime' | translate }}）</span></div>
+        <div><span>{{ 'Home.viewData' | translate }}</span></div>
+      </div>
+      <div class="inline-block">
+        <div><span>{{ 'Home.activeUsersMonth' | translate }}</span></div>
+        <div><span>1000</span><span class="times">（{{ 'Home.personTime' | translate }}）</span></div>
+        <div><span>{{ 'Home.viewData' | translate }}</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div echarts [options]="options" style="height:45rem;width:100%;margin-top:5rem;"></div>
+  </div>
+</div>

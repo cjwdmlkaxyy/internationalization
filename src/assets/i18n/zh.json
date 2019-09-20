@@ -1,0 +1,23 @@
+{
+  "Frame": {
+    "en": "英语",
+    "zh": "中文",
+    "loginOut": "退出登陆",
+    "switchLanguage": "切换语言"
+  },
+  "Home": {
+    "welcome": "欢迎来到管理中心",
+    "homePage": "首页",
+    "dashboard": "仪表盘",
+    "infosCenter": "信息聚合中心",
+    "showInfosInTime": "实时展示系统动态",
+    "visitorsToday": "今日访客量",
+    "personTime": "人次",
+    "viewData": "查看数据",
+    "visitorsMonth": "本月访客量",
+    "visitorsToday": "今日访客量",
+    "activeUsersToday": "今日活跃用户",
+    "activeUsersMonth": "本月活跃用户",
+    "echarsVal": "Echarts名称"
+  }
+}
