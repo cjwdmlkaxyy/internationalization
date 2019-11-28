@@ -7,6 +7,7 @@ import {HomeComponent} from './component/home/home.component';
 import {UersManageMentComponent} from './component/uers-manage-ment/uers-manage-ment.component';
 import {PagePictureComponent} from './component/pictureManagement/page-picture/page-picture.component';
 import {SlideshowComponent} from './component/pictureManagement/slideshow/slideshow.component';
+import {FindSthComponent} from './component/newsManagement/find-sth/find-sth.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/Login', pathMatch: 'full'},
@@ -18,6 +19,7 @@ const routes: Routes = [
      {path: 'UserManagement', component: UersManageMentComponent},
      {path: 'PagePicManagement', component: PagePictureComponent},
      {path: 'Slideshow', component: SlideshowComponent},
+     {path: 'Find-sth', component: FindSthComponent},
    ]},
 ];
 
